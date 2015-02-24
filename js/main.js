@@ -1,18 +1,19 @@
 
-var $form = $('form');
-var $theColor = $('#the-color');
-var $newSquare = $('.newSquare');
+var $form = $('.form');
+var $newLine = $('.newLine');
+var $name = $('#toDo');
+var $list = $('.list');
 
 
 
 $form.on('submit', function (e) {
-    //Stop the form from submitting to thank you page
     e.preventDefault();
-    $circle.css('background-color',$theColor.val());
+    
+    var nameValue = $name.val();
+    var $li = $('<li>').html($name.val());
+    var $button = $('<button>').html('X');
+    
+    $li.append($button);
+    $list.append($li);
   });
 
-$newSquare.on('click', function() {
-   var $div =$('<div>');
-    $div.addClass('square');
-    $('body').append($div);
-});
