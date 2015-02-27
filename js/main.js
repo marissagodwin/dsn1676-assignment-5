@@ -17,3 +17,10 @@ $form.on('submit', function (e) {
     $list.append($li);
   });
 
+$list.on('click', 'li', function(){
+           $(this).toggleClass('js-strike'); 
+ });
+
+$list.on('click','li', 'button', function(){
+           $(this).addClass('delete'); 
+ });

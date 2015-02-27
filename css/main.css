@@ -17,6 +17,16 @@ html {
     box-sizing: inherit;
 }
 
+.border {
+    border: grey solid;
+    border-radius: 10px;
+}
 
+.js-strike {
+    color: grey;
+    text-decoration: line-through;
+}
 
-.line {
+.delete {
+    visibility: hidden;
+}
