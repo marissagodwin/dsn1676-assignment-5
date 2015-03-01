@@ -17,9 +17,38 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: #D0D0D0;
+}
+
+.list {
+    list-style-type: none;
+}
+
 .border {
-    border: grey solid;
+    border: #A8A8A8  solid;
     border-radius: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8F8F8;
+}
+
+.top {
+    text-align: center;
+    background-color: #E8E8E8 ;
+}
+
+.button {
+    border: 1px solid #ccc;
+    background-color: #4F94CD;
+    color: white;
+}
+
+.form { 
+    font-size: 1.5em;
+    padding: 0.2em 0.5em;
+    width: 100%;
 }
 
 .js-strike {
