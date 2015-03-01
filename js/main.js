@@ -21,6 +21,6 @@ $list.on('click', 'li', function(){
            $(this).toggleClass('js-strike'); 
  });
 
-$list.on('click','li', 'button', function(){
+$list.on('click', 'button', function(){
            $(this).addClass('delete'); 
  });
