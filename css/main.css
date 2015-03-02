@@ -19,10 +19,11 @@ html {
 
 body {
     background-color: #D0D0D0;
-}
+} 
 
 .list {
     list-style-type: none;
+    padding: 2em;
 }
 
 .border {
