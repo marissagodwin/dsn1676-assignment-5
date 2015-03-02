@@ -22,5 +22,5 @@ $list.on('click', 'li', function(){
  });
 
 $list.on('click', 'button', function(){
-           $(this).addClass('delete'); 
+           $(this).parent().remove(); 
  });
