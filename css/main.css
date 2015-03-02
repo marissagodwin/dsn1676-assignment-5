@@ -69,4 +69,13 @@ body {
 
 .delete {
     float: right;
+    border: 1px solid #ccc;
+    background-color: #4F94CD;
+    color: white;
+}
+
+.delete:hover{
+  color: #0074D9;
+  text-decoration: none;
+  background-color: white; 
 }
