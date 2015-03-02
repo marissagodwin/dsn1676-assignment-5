@@ -11,7 +11,7 @@ $form.on('submit', function (e) {
     
     var nameValue = $name.val();
     var $li = $('<li>').html($name.val());
-    var $button = $('<button>').html('X');
+    var $button = $('<button class="delete">X</button>');
     
     $li.append($button);
     $list.append($li);

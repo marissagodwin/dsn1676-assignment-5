@@ -27,17 +27,27 @@ body {
 }
 
 .border {
-    border: #A8A8A8  solid;
+    margin-top:2em;
+    border: #A8A8A8 5px solid;
     border-radius: 10px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     background-color: #F8F8F8;
+    background-color: #E8E8E8;
+    overflow: hidden;
 }
 
 .top {
+    padding: 0;
+    margin: auto;
     text-align: center;
-    background-color: #E8E8E8 ;
+     ;
+}
+
+.bottom {
+    background-color: white;
+    overflow: hidden;
 }
 
 .button {
@@ -55,4 +65,8 @@ body {
 .js-strike {
     color: grey;
     text-decoration: line-through;
+}
+
+.delete {
+    float: right;
 }
